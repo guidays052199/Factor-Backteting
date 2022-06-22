@@ -17,4 +17,6 @@ The 3 factors aborded in the project are as follow:
 
 The Strategy aims to provide 2 main functions, the backtest and the plot of results. To use the functions, at first you have to call the class using the following command:
 
-  `Strategy(prices, ineg, p_vpa, ev_ebitda, initial_data = dt.datetime(2016,1,1), final_data = dt.datetime(2021,12,31), momentum_size = .2, quality_size = .5, position = 'short')`
+  `Strategy(prices, ineg, p_vpa, ev_ebitda, initial_data, final_data,momentum_size, quality_size, position = 'short')`
+  
+  To initialize the class you have to pass the data, an example is contained in the docs data, with the historical prices, historical data for the quality factor and historical data for the value factor. Another argument that needs to be passed is the negotiability index of the stocks, that will be used to set the uniserve of observation, getting 100 stocks with the bigger negotiability index.
