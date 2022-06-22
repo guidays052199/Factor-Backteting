@@ -111,7 +111,19 @@ Getting, for example, the following output:
 ![output](https://user-images.githubusercontent.com/94725904/175137998-215bdffc-9f13-4385-9491-408e490e1326.png)
 
 ## Returns
+The third and last function avaible in the class is Returns(), which aims to provide analysis about the observed returns of the strategy. To acess the function, you can use the following command:
+  
+  ```
+  strategy.Returns()
+  ```
 
+Getting an output with the histogram of the returns and informations about skewness and kurtosis of the returns. For example:
+
+  > The kurtosis of the returns observed is: 16.27
+  > The skewness of the returns observed is: -1.27
+
+![output2](https://user-images.githubusercontent.com/94725904/175165432-a11bef52-3487-40c7-ad03-bd39b31da63a.png)
+  
 
 
    
