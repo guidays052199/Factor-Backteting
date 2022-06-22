@@ -54,8 +54,7 @@ After you called the class, you will have access to 2 main fuction, the first is
    With this command, you can get the following output:
    
    
-   
-   | Date  |  Capital  | Amount earned |
+    | Date  |  Capital  | Amount earned |
 | ------------- | ------------- | ------------- |
 |2000-01-09 |	658.128801 |	0.698801 |
 |2000-01-16 |	659.000655 |	1.570655 |
@@ -70,7 +69,7 @@ After you called the class, you will have access to 2 main fuction, the first is
 |2022-02-27 |	1741.512377 |	1084.082377 |
 
 |Strategy Profit |	Strategy | Cumulative Profit |	IBrX Returns |	IBrX Cumulative Returns |
-| -------------  | ------------- | ------------- | 
+| -------------  | ------------- | ------------- | ------------- | ------------------------ | 
 2016-02-01	0.006554	1.006554	0.017635	0.931825
 2016-02-02	-0.022484	0.983923	-0.034878	0.899325
 2016-02-03	0.004744	0.988591	0.014814	0.912648
