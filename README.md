@@ -45,7 +45,10 @@ The Strategy aims to provide 2 main functions, the backtest and the plot of resu
 
 After you called the class, you will have access to 2 main fuction, the first is the backtest, you can acess it by the following command:
 
-  `strategy.Backtester(rebal)`
+  > strategy.Backtester(rebal)
+   
+   In this function you have a unique parameter to bet passed:
+   
    
    
    
