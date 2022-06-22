@@ -18,7 +18,7 @@ The 3 factors aborded in the project are as follow:
 The Strategy aims to provide 2 main functions, the backtest and the plot of results. To use the functions, at first you have to call the class using the following command:
 
   ```
-  Strategy(prices, ineg, value, quality, initial_data, final_data,momentum_size, quality_size, position = 'short', mdomentum_lookback)
+  Strategy(prices, ineg, value, quality, initial_data, final_data,momentum_size, quality_size, position , momentum_lookback)
   ```
  
  This function need 4 essentials parameters to work with additional optional parameteres:
@@ -27,7 +27,7 @@ The Strategy aims to provide 2 main functions, the backtest and the plot of resu
  
   `ineg`: historical data of negotiability index for the stocks. It will be used to set the universe of observation to the backtest.
   
-  `value`: the historical daily data of the value factor chosen. It can be price/book, ev/ebitda etc...
+  ``value``: the historical daily data of the value factor chosen. It can be price/book, ev/ebitda etc...
   
   `quality`: the historical daily data of the quality factor chosen. It can be ROIC, ROE etc...
  
