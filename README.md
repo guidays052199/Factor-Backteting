@@ -45,9 +45,44 @@ The Strategy aims to provide 2 main functions, the backtest and the plot of resu
 
 After you called the class, you will have access to 2 main fuction, the first is the backtest, you can acess it by the following command:
 
-  > strategy.Backtester(rebal)
+   `strategy.Backtester(rebal)`
    
    In this function you have a unique parameter to bet passed:
+   
+   `rebal`: this is the rebalancing period for the strategy, by default it is monthly. You can put 2 months, 3 months etc...
+   
+   With this command, you can get the following output:
+   
+   
+   
+   | Date  |  Capital  | Amount earned |
+| ------------- | ------------- | ------------- |
+|2000-01-09 |	658.128801 |	0.698801 |
+|2000-01-16 |	659.000655 |	1.570655 |
+|2000-01-23 |	659.869740 |	2.439740 |
+|2000-01-30 |	660.739234 |	3.309234 |
+|2000-02-06 |	661.610118 |	4.180118 |
+| ... | ... | ... |
+|2022-01-30 |	1736.221593 |	1078.791593 |
+|2022-02-06 |	1737.434738 |	1080.004738 |
+|2022-02-13 |	1738.792889 |	1081.362889 |
+|2022-02-20 |	1740.152102 |	1082.722102 |
+|2022-02-27 |	1741.512377 |	1084.082377 |
+
+|Strategy Profit |	Strategy | Cumulative Profit |	IBrX Returns |	IBrX Cumulative Returns |
+| -------------  | ------------- | ------------- | 
+2016-02-01	0.006554	1.006554	0.017635	0.931825
+2016-02-02	-0.022484	0.983923	-0.034878	0.899325
+2016-02-03	0.004744	0.988591	0.014814	0.912648
+2016-02-04	0.015136	1.003554	0.029424	0.939502
+2016-02-05	0.001758	1.005318	0.002612	0.941956
+...	...	...	...	...
+2022-01-25	0.008416	6.787400	0.022650	2.805304
+2022-01-26	0.003166	6.808889	0.011423	2.837349
+2022-01-27	0.001390	6.818351	0.014389	2.878177
+2022-01-28	0.000890	6.824421	-0.004619	2.864881
+2022-01-31	0.003190	6.846194	0.016814	2.913051
+   
    
    
    
