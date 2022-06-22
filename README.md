@@ -94,7 +94,7 @@ After you called the class, you will have access to 2 main fuction, the first is
 
 The others function defined aims to provide the results plotted in a graph comparing to the benchmark, that you can access by the following command:
 
-     `strategy.PlotStrategyResults()`
+  `strategy.PlotStrategyResults()`
      
 Getting the following output:
 
