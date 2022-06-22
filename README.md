@@ -96,7 +96,7 @@ The others function defined aims to provide the results plotted in a graph compa
 
   `strategy.PlotStrategyResults()`
      
-Getting the following output:
+Getting, for example, the following output:
 
 ![output](https://user-images.githubusercontent.com/94725904/175137998-215bdffc-9f13-4385-9491-408e490e1326.png)
 
