@@ -17,7 +17,9 @@ The 3 factors aborded in the project are as follow:
 
 The Strategy aims to provide 2 main functions, the backtest and the plot of results. To use the functions, at first you have to call the class using the following command:
 
-  `Strategy(prices, ineg, value, quality, initial_data, final_data,momentum_size, quality_size, position = 'short', mdomentum_lookback)`
+  ```
+  Strategy(prices, ineg, value, quality, initial_data, final_data,momentum_size, quality_size, position = 'short', mdomentum_lookback)
+  ```
  
  This function need 4 essentials parameters to work with additional optional parameteres:
 
