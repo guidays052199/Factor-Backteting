@@ -47,13 +47,17 @@ The Strategy aims to provide 2 main functions, the backtest and the plot of resu
 
 After you called the class, you will have access to 2 main fuction, the first is the backtest, you can acess it by the following command:
 
-   `strategy.BackTester(rebal)`
+   ```
+   strategy.BackTester(rebal)
+   ```
    
    `rebal`: this is the rebalancing period for the strategy, by default it is monthly. You can put 2 months, 3 months etc...
  
    With this command:
    
-   `strategy.BackTester("1M")`
+   ```
+   strategy.BackTester("1M")
+   ```
    
    You can get the following output:
    
@@ -74,7 +78,9 @@ After you called the class, you will have access to 2 main fuction, the first is
 
   With you want to rebalance you portfolio at each 2 monthd, you put the following command:
   
-  `strategy.BackTester("2M")`
+  ```
+  strategy.BackTester("2M")
+  ```
   
   Getting the following output:
   
@@ -96,12 +102,15 @@ After you called the class, you will have access to 2 main fuction, the first is
 
 The others function defined aims to provide the results plotted in a graph comparing to the benchmark, that you can access by the following command:
 
-  `strategy.PlotStrategyResults()`
+  ```
+  strategy.PlotStrategyResults()
+  ```
      
 Getting, for example, the following output:
 
 ![output](https://user-images.githubusercontent.com/94725904/175137998-215bdffc-9f13-4385-9491-408e490e1326.png)
 
+## Returns
 
 
 
