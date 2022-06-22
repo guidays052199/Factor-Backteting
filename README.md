@@ -90,6 +90,12 @@ After you called the class, you will have access to 2 main fuction, the first is
 |2021-12-29 |	-0.000995 |	4.861825 |	-0.011912. |	2.747772 |
 |2021-12-30 |	0.010324  |	4.912020 |	0.016351   |	2.792702 |
    
+## Plot Results
 
-   
+The others function defined aims to provide the results plotted in a graph comparing to the benchmark, that you can access by the following command:
+
+     `strategy.PlotStrategyResults()`
+     
+Getting the following output:
+
    
