@@ -76,7 +76,7 @@ After you called the class, you will have access to 3 main fuction, the first is
 |2022-01-31 |	0.003190 |	6.846194 |	0.016814 |	2.913051 |
 
 
-  With you want to rebalance you portfolio at each 2 monthd, you put the following command:
+  If you want to rebalance you portfolio at each 2 months, you put the following command:
   
   ```
   strategy.BackTester("2M")
