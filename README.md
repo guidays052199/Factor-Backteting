@@ -45,16 +45,16 @@ The Strategy aims to provide 2 main functions, the backtest and the plot of resu
 
 After you called the class, you will have access to 2 main fuction, the first is the backtest, you can acess it by the following command:
 
-   `strategy.Backtester(rebal)`
-   
-   In this function you have a unique parameter to bet passed:
+   `strategy.BackTester(rebal)`
    
    `rebal`: this is the rebalancing period for the strategy, by default it is monthly. You can put 2 months, 3 months etc...
+ 
+   With this command:
    
-   With this command, you can get the following output:
+   `strategy.BackTester("1M")`
    
-
-
+   You can get the following output:
+   
 |Strategy Profit |	Strategy | Cumulative Profit |	IBrX Returns |	IBrX Cumulative Returns |
 | -------------  | ------------- | ------------- | ------------- | ------------------------ | 
 |2016-02-01 |	0.006554 |	1.006554 |	0.017635 |	0.931825 |
@@ -68,6 +68,8 @@ After you called the class, you will have access to 2 main fuction, the first is
 |2022-01-27 |	0.001390 |	6.818351 |	0.014389 |	2.878177 |
 |2022-01-28 |	0.000890 |	6.824421 |	-0.004619 |	2.864881 |
 |2022-01-31 |	0.003190 |	6.846194 |	0.016814 |	2.913051 |
+
+
    
    
    
