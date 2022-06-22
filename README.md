@@ -6,6 +6,8 @@ The factors are based on the book:
 > Berkin, Andrew.Your Complete Guide to Factor-Based Investing. BAM ALLIANCE Pres, 2016.
 
 The 3 factors aborded in the project are as follow: 
-  `Quality`
+  `Quality` 
+  
   `Value`
+  
   `Momentum`
