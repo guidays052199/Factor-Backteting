@@ -120,6 +120,7 @@ The third and last function avaible in the class is Returns(), which aims to pro
 Getting an output with the histogram of the returns and informations about skewness and kurtosis of the returns. For example:
 
   > The kurtosis of the returns observed is: 16.27
+  
   > The skewness of the returns observed is: -1.27
 
 ![output2](https://user-images.githubusercontent.com/94725904/175165432-a11bef52-3487-40c7-ad03-bd39b31da63a.png)
