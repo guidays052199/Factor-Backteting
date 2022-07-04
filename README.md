@@ -160,7 +160,26 @@ Getting an output with the histogram of the returns and informations about skewn
 |Max Consecutive Losses  |	 9| 11 |
 
 
-![output2](https://user-images.githubusercontent.com/94725904/175165432-a11bef52-3487-40c7-ad03-bd39b31da63a.png)
+
+![normal_scale](https://user-images.githubusercontent.com/94725904/177212869-22cd6fae-085c-4e17-b191-6c3e19dae3f1.png)
+
+![log_scaled](https://user-images.githubusercontent.com/94725904/177212887-6e2849aa-a80a-4390-8bc0-3757cba88406.png)
+
+![eoy returns](https://user-images.githubusercontent.com/94725904/177212902-1d70e6c6-cbf7-4116-9cef-5c43050076e7.png)
+
+![histogram](https://user-images.githubusercontent.com/94725904/177212912-442426af-ed27-4739-9b4a-591011c380cb.png)
+
+![daily returns](https://user-images.githubusercontent.com/94725904/177212924-2d1e9f23-4f59-43d8-985b-d4287d14b180.png)
+
+![rolling beta](https://user-images.githubusercontent.com/94725904/177212941-e4745aa6-6c07-44f3-bcb9-2a84f8f4e1d9.png)
+
+![rolling volatility](https://user-images.githubusercontent.com/94725904/177212957-3f6ab5d0-1cdb-44bb-8953-b26639546d23.png)
+
+![rolling sharpe](https://user-images.githubusercontent.com/94725904/177212966-ff4f9632-c23a-48d0-a3e2-242d3505a608.png)
+
+![rolling sortino](https://user-images.githubusercontent.com/94725904/177212969-972c93ea-963b-41d6-bdc2-3b2859eb969f.png)
+
+
   
 
 
