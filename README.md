@@ -118,7 +118,7 @@ The third and most powerful function avaiable in the class is returns_analysis()
   strategy.returns_analysis()
   ```
 
-Getting an output with the histogram of the returns and informations about skewness and kurtosis of the returns. For example:
+Getting an output with powerful and interesting metrics, as well as visualization of interesting insights from the returns.For example:
 
 
 |                |	Strategy | Benchmark |	
