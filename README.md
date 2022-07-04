@@ -18,7 +18,7 @@ The 3 factors aborded in the project are as follow:
 The Strategy aims to provide 3 main functions, the backtest and the plot of results. To use the functions, at first you have to call the class using the following command:
 
   ```
-  Strategy(prices, ineg, value, quality, initial_data, final_data,momentum_size, quality_size, position , momentum_lookback)
+  strategy = Strategy(prices, ineg, p_vpa, ev_ebitda, initial_data = dt.datetime(2015,1,1), final_data = dt.datetime(2021,12,31), momentum_size = .2, quality_size = .5, position = 'long-only', momentum_lookback = 6)
   ```
  
  This function need 4 essentials parameters to work with additional optional parameteres:
@@ -48,7 +48,7 @@ The Strategy aims to provide 3 main functions, the backtest and the plot of resu
 After you called the class, you will have access to 3 main fuction, the first is the backtest, you can acess it by the following command:
 
    ```
-   strategy.BackTester(rebal)
+   strategy.backtester(rebal)
    ```
    
    `rebal`: this is the rebalancing period for the strategy, by default it is monthly. You can put 2 months, 3 months etc...
@@ -56,7 +56,7 @@ After you called the class, you will have access to 3 main fuction, the first is
    With this command:
    
    ```
-   strategy.BackTester("1M")
+   strategy.backtester("1M")
    ```
    
    You can get the following output:
@@ -79,7 +79,7 @@ After you called the class, you will have access to 3 main fuction, the first is
   If you want to rebalance you portfolio at each 2 months, you put the following command:
   
   ```
-  strategy.BackTester("2M")
+  strategy.backtester("2M")
   ```
   
   Getting the following output:
@@ -103,7 +103,7 @@ After you called the class, you will have access to 3 main fuction, the first is
 The others function defined aims to provide the results plotted in a graph comparing to the benchmark, that you can access by the following command:
 
   ```
-  strategy.PlotStrategyResults()
+  strategy.plot_results()
   ```
      
 Getting, for example, the following output:
@@ -111,10 +111,10 @@ Getting, for example, the following output:
 ![output](https://user-images.githubusercontent.com/94725904/175137998-215bdffc-9f13-4385-9491-408e490e1326.png)
 
 ## Returns
-The third and last function avaible in the class is Returns(), which aims to provide analysis about the observed returns of the strategy. To acess the function, you can use the following command:
+The third and most powerful function avaiable in the class is returns_analysis(), which aims to provide analysis about the observed returns of the strategy. To acess the function, you can use the following command:
   
   ```
-  strategy.Returns()
+  strategy.returns_analysis()
   ```
 
 Getting an output with the histogram of the returns and informations about skewness and kurtosis of the returns. For example:
