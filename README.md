@@ -120,7 +120,7 @@ The third and most powerful function avaiable in the class is returns_analysis()
 
 This function need no essentials parameters to work but there is a optinal parameter:
 
-  `rf`: the risk-free rate of market, bu default it is 7%
+  `rf`: the risk-free rate of market, by default it is 7%
 
 
 Getting an output with powerful and interesting metrics, as well as visualization of interesting insights from the returns.For example:
